@@ -64,7 +64,7 @@ In this game u have to dodge spike for survive, try to survive the most time u c
    </a>
 </p>
 
-## authors:
+## Authors:
 <a href="https://www.freepik.com/free-vector/glass-color-rectangular-buttons-game_30761561.htm#query=game%20sign&position=37&from_view=search&track=ais">Image by upklyak</a> on Freepik
 https://lottiefiles.com/130201-shinning-effect
 <a href="https://www.freepik.com/free-vector/directional-arrows-set-many-colors-shapes_9727779.htm#query=arrow&position=16&from_view=search&track=sph">Image by starline</a> on Freepik
