@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Storage_activity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/storage_background" />
+
+    <ImageView
+        android:id="@+id/puppy_storage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@id/inuse_storage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/puppy_storage" />
+
+    <ImageView
+        android:id="@+id/spike_storage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@id/puppy_storage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spike_storage" />
+
+    <ImageView
+        android:id="@+id/exit_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+
+    <ImageView
+        android:id="@+id/inuse_storage"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/inuse_storage" />
+
+    <ImageView
+        android:id="@+id/inuse_puppy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/puppy_storage"
+        android:layout_alignStart="@+id/inuse_storage"
+        android:layout_alignEnd="@+id/inuse_storage"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/default_puppy" />
+
+    <ImageView
+        android:id="@+id/inuse_spike"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/puppy_storage"
+        android:layout_alignStart="@+id/inuse_puppy"
+        android:layout_alignEnd="@+id/inuse_storage"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/shuriken_ninja0" />
+
+    <ImageView
+        android:id="@+id/default_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toEndOf="@+id/dog_storage"
+        android:src="@drawable/default_chestshop" />
+
+    <ImageView
+        android:id="@+id/dog_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toEndOf="@+id/cat_storage"
+        android:src="@drawable/dog_chestshop" />
+
+    <ImageView
+        android:id="@+id/cat_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toEndOf="@+id/bunny_storage"
+        android:src="@drawable/cat_chestshop" />
+
+    <ImageView
+        android:id="@+id/bunny_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/bunny_chestshop" />
+
+    <ImageView
+        android:id="@+id/fox_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@id/bunny_storage"
+        android:src="@drawable/fox_chestshop" />
+
+    <ImageView
+        android:id="@+id/tiger_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@id/fox_storage"
+        android:src="@drawable/tiger_chestshop" />
+
+    <ImageView
+        android:id="@+id/pig_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/puppy_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@id/tiger_storage"
+        android:src="@drawable/pig_chestshop" />
+
+    <ImageView
+        android:id="@+id/bear_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/dog_storage"
+        android:layout_toEndOf="@+id/monkey_storage"
+        android:src="@drawable/bear_chestshop" />
+
+    <ImageView
+        android:id="@+id/chicken_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/default_storage"
+        android:layout_toEndOf="@+id/bear_storage"
+        android:src="@drawable/chicken_chestshop" />
+
+
+    <ImageView
+        android:id="@+id/sheep_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bunny_storage"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sheep_chestshop" />
+
+    <ImageView
+        android:id="@+id/cow_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bunny_storage"
+        android:layout_toStartOf="@id/sheep_storage"
+        android:src="@drawable/cow_chestshop" />
+
+    <ImageView
+        android:id="@+id/panda_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bunny_storage"
+        android:layout_toStartOf="@id/cow_storage"
+        android:src="@drawable/panda_chestshop" />
+
+    <ImageView
+        android:id="@+id/lion_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bunny_storage"
+        android:layout_toStartOf="@id/panda_storage"
+        android:src="@drawable/lion_chestshop" />
+
+    <ImageView
+        android:id="@+id/monkey_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/cat_storage"
+        android:layout_toEndOf="@+id/sheep_storage"
+        android:src="@drawable/monkey_chestshop" />
+
+    <ImageView
+        android:id="@+id/dragon_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sheep_storage"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dragon_chestshop" />
+
+    <ImageView
+        android:id="@+id/elephant_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/monkey_storage"
+        android:layout_toEndOf="@id/dragon_storage"
+        android:src="@drawable/elephant_chestshop" />
+
+    <ImageView
+        android:id="@+id/giraffe_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bear_storage"
+        android:layout_toEndOf="@id/elephant_storage"
+        android:src="@drawable/giraffe_chestshop" />
+
+    <ImageView
+        android:id="@+id/owl_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/chicken_storage"
+        android:layout_toEndOf="@id/giraffe_storage"
+        android:src="@drawable/owl_chestshop" />
+
+
+    <ImageView
+        android:id="@+id/default_spike_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spike_storage"
+        android:layout_alignEnd="@+id/default_storage"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/default_spike_chestshop" />
+
+    <ImageView
+        android:id="@+id/ninja_sword_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spike_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@+id/default_spike_storage"
+        android:src="@drawable/ninja_sword_chestshop" />
+
+    <ImageView
+        android:id="@+id/sword_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spike_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@+id/ninja_sword_storage"
+        android:src="@drawable/sword_chestshop" />
+
+    <ImageView
+        android:id="@+id/bomb_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spike_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@+id/steak_storage"
+        android:src="@drawable/bomb_chestshop" />
+
+    <ImageView
+        android:id="@+id/steak_storage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/spike_storage"
+        android:layout_marginTop="51dp"
+        android:layout_toStartOf="@+id/sword_storage"
+        android:src="@drawable/steak_chestshop" />
+
+
+</RelativeLayout>

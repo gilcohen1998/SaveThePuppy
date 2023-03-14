@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/donate_dialog_shape">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="46dp"
+        android:layout_marginStart="28dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_2keys"
+            android:layout_alignStart="@id/buy_2keys"
+            android:layout_alignEnd="@+id/buy_2keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="5.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_4keys"
+            android:layout_alignStart="@id/buy_4keys"
+            android:layout_alignEnd="@+id/buy_4keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="10.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_10keys"
+            android:layout_alignStart="@id/buy_10keys"
+            android:layout_alignEnd="@+id/buy_10keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="20.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_10keys"
+            android:layout_alignStart="@id/buy_10keys"
+            android:layout_alignEnd="@+id/buy_10keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="20.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_16keys"
+            android:layout_alignStart="@id/buy_16keys"
+            android:layout_alignEnd="@+id/buy_16keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="25.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_22keys"
+            android:layout_alignStart="@id/buy_22keys"
+            android:layout_alignEnd="@+id/buy_22keys"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="35.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_1000coins"
+            android:layout_alignStart="@id/buy_1000coins"
+            android:layout_alignEnd="@+id/buy_1000coins"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="10.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_5000coins"
+            android:layout_alignStart="@id/buy_5000coins"
+            android:layout_alignEnd="@+id/buy_5000coins"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="40.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/buy_10000coins"
+            android:layout_alignStart="@id/buy_10000coins"
+            android:layout_alignEnd="@+id/buy_10000coins"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/donate_button_shape"
+            android:text="60.00 ₪"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/buy_2keys"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_4keys"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keys2" />
+
+        <ImageView
+            android:id="@+id/buy_4keys"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_10keys"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keys4" />
+        <ImageView
+            android:id="@+id/buy_10keys"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_16keys"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keys10" />
+        <ImageView
+            android:id="@+id/buy_16keys"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_22keys"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keys16" />
+        <ImageView
+            android:id="@+id/buy_22keys"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_1000coins"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keys22" />
+        <ImageView
+            android:id="@+id/buy_1000coins"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_5000coins"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/coins1000" />
+        <ImageView
+            android:id="@+id/buy_5000coins"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/buy_10000coins"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/coins5000" />
+        <ImageView
+            android:id="@+id/buy_10000coins"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/coins10000" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_2keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_2keys"
+            android:layout_alignTop="@+id/buy_2keys"
+            android:layout_alignEnd="@id/buy_2keys"
+            android:layout_alignBottom="@id/buy_2keys"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_4keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_4keys"
+            android:layout_alignTop="@+id/buy_4keys"
+            android:layout_alignEnd="@id/buy_4keys"
+            android:layout_alignBottom="@id/buy_4keys"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_10keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_10keys"
+            android:layout_alignTop="@+id/buy_10keys"
+            android:layout_alignEnd="@id/buy_10keys"
+            android:layout_alignBottom="@id/buy_10keys"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_16keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_16keys"
+            android:layout_alignTop="@+id/buy_16keys"
+            android:layout_alignEnd="@id/buy_16keys"
+            android:layout_alignBottom="@id/buy_16keys"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_20keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_22keys"
+            android:layout_alignTop="@+id/buy_22keys"
+            android:layout_alignEnd="@id/buy_22keys"
+            android:layout_alignBottom="@id/buy_22keys"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_1000coins"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_1000coins"
+            android:layout_alignTop="@+id/buy_1000coins"
+            android:layout_alignEnd="@id/buy_1000coins"
+            android:layout_alignBottom="@id/buy_1000coins"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_5000coins"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_5000coins"
+            android:layout_alignTop="@+id/buy_5000coins"
+            android:layout_alignEnd="@id/buy_5000coins"
+            android:layout_alignBottom="@id/buy_5000coins"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_10000coins"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/buy_10000coins"
+            android:layout_alignTop="@+id/buy_10000coins"
+            android:layout_alignEnd="@id/buy_10000coins"
+            android:layout_alignBottom="@id/buy_10000coins"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/shinny_legendary" />
+
+        <TextView
+            android:id="@+id/free_2_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buy_10keys"
+            android:layout_alignStart="@id/buy_10keys"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:rotation="30"
+            android:text="FREE 2 KEYS!"
+            android:textColor="#FF5722"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/free_6_keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buy_16keys"
+           android:layout_alignStart="@id/buy_16keys"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:rotation="30"
+            android:text="FREE 6 KEYS!"
+            android:textColor="#FF5722"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/best_offer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buy_22keys"
+            android:layout_alignStart="@id/buy_22keys"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:rotation="30"
+            android:text="BEST OFFER!"
+            android:textColor="#FF5722"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/less20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buy_5000coins"
+            android:layout_alignStart="@id/buy_5000coins"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:rotation="30"
+            android:text="LESS 20%!"
+            android:textColor="#FF5722"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/less40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/buy_10000coins"
+            android:layout_alignStart="@id/buy_10000coins"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:rotation="30"
+            android:text="LESS 40%!"
+            android:textColor="#FF5722"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/exit_dialog"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/x_icon" />
+
+
+
+</RelativeLayout>

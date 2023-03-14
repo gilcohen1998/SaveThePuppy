@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/dialog_shape">
+
+    <ImageView
+        android:id="@+id/icon_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/default_puppy" />
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_dialog"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="Are u sure u want to buy this skin?"
+        android:textColor="#474747"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price_dialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/press_start_2p"
+        android:text="YES"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/exit_dialog"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/x_icon" />
+
+    <TextView
+        android:id="@+id/price_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_dialog"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="50 coins"
+        android:textColor="#FF474747"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

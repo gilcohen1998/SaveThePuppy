@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SaveThePuppy</string>
+    <string name="play">PLAY</string>
+    <string name="shop">SHOP</string>
+    <string name="settings">SETTINGS</string>
+    <string name="info">INFO</string>
+    <string name="choose_a_difficulty">Choose a difficulty:</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="master">MASTER</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_mode_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_coins"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableRight="@drawable/coins"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/play"
+        android:textAllCaps="true"
+        android:textSize="31sp" />
+
+
+    <Button
+        android:id="@+id/shop_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/play_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/shop"
+        android:textAllCaps="true"
+        android:textSize="31sp" />
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/shop_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/info"
+        android:textAllCaps="true"
+        android:textSize="31sp" />
+
+    <ImageView
+        android:id="@+id/donate"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/donate_icon" />
+
+    <ImageView
+        android:id="@+id/change_skin"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/donate"
+        android:src="@drawable/chage_skin_icon" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_mode_background"
+    android:orientation="vertical"
+    tools:context=".Middleshop_Activity">
+
+
+    <Button
+        android:id="@+id/skinshop_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="SKIN SHOP"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/chestshop_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/skinshop_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="CHEST SHOP"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/spikeshop_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/chestshop_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="SPIKE SHOP"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/musicshop_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/spikeshop_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="MUSIC SHOP"
+        android:textAllCaps="true"
+        android:textSize="26dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/exitmiddleshop_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+
+</RelativeLayout>

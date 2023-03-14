@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_mode_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="restart"
+        android:src="@drawable/again_icon" />
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="exit"
+        android:src="@drawable/home_icon" />
+
+    <ImageView
+        android:id="@+id/new_high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/trophy"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/new_high_score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_high_score"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="New highest score!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/your_points_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_high_score_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Your Points: "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_high_score_text"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@+id/your_points_text"
+        android:fontFamily="@font/press_start_2p"
+        android:text="50"
+        android:textColor="#436500"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/highest_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/your_points_text"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Highest: "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHighest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPoints"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:layout_toStartOf="@+id/highest_text"
+        android:fontFamily="@font/press_start_2p"
+        android:text="100"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

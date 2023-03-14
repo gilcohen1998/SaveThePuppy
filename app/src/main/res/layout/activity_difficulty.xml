@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_mode_background"
+    android:orientation="vertical"
+    tools:context=".DifficultyActivity">
+
+    <TextView
+        android:id="@+id/difficulty_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="0dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="@string/choose_a_difficulty"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/easy_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/difficulty_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/easy"
+        android:textAllCaps="true"
+        android:textSize="31sp" />
+
+
+    <Button
+        android:id="@+id/medium_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/easy_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/medium"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/hard_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/medium_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/hard"
+        android:textAllCaps="true"
+        android:textSize="31sp" />
+
+    <Button
+        android:id="@+id/master_button"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/hard_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_button"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/master"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/exitdifficulty_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+
+</RelativeLayout>

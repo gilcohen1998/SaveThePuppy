@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop_background"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:context=".ShopActivity">
+
+    <TextView
+        android:id="@+id/shop_coins"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableRight="@drawable/coins"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/bunny_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="57dp"
+        android:src="@drawable/bunny_shop" />
+
+    <ImageView
+        android:id="@+id/cat_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/cat_shop" />
+
+    <ImageView
+        android:id="@+id/dog_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bunny_skin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/cat_skin"
+        android:src="@drawable/dog_shop" />
+
+    <ImageView
+        android:id="@+id/fox_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_toEndOf="@+id/dog_skin"
+        android:src="@drawable/fox_shop" />
+
+    <ImageView
+        android:id="@+id/tigger_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dog_skin"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/fox_skin"
+        android:src="@drawable/tiger_shop" />
+
+    <ImageView
+        android:id="@+id/pig_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fox_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@+id/chicken_skin"
+        android:src="@drawable/pig_shop" />
+
+    <ImageView
+        android:id="@+id/chicken_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exitshop_button"
+        android:layout_below="@+id/tigger_skin"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/bear_skin"
+        android:src="@drawable/chicken_shop" />
+
+    <ImageView
+        android:id="@+id/bear_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exitshop_button"
+        android:layout_below="@+id/pig_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/tigger_skin"
+        android:src="@drawable/bear_shop" />
+
+    <ImageView
+        android:id="@+id/exitshop_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/next_icon" />
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop_background"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:context=".Spike_ShopActivity">
+
+    <TextView
+        android:id="@+id/shop_coins"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/coins"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/sword_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="21dp"
+        android:layout_toStartOf="@+id/ninja_sword_skin"
+        android:src="@drawable/sword_shop" />
+
+    <ImageView
+        android:id="@+id/ninja_sword_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/ninja_sword_shop" />
+
+    <ImageView
+        android:id="@+id/bomb_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sword_skin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/ninja_sword_skin"
+        android:src="@drawable/bomb_shop" />
+
+    <ImageView
+        android:id="@+id/steak_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ninja_sword_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_toEndOf="@+id/bomb_skin"
+        android:src="@drawable/steak_shop" />
+
+
+    <ImageView
+        android:id="@+id/exitshop_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+
+</RelativeLayout>

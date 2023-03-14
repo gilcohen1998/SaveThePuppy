@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/storage_background"/>
+
+
+    <com.example.savethepuppy.CustomScrollView
+        android:id="@+id/outerScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/difficulty_sign"
+        android:background="@drawable/difficulty_sign"
+        android:layout_width="350dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/difficulty_plat"
+        android:background="#8187898A"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/difficulty_sign"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:id="@+id/innerScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@id/difficulty_plat"
+        android:layout_alignTop="@+id/difficulty_plat"
+        android:layout_alignEnd="@id/difficulty_plat"
+        android:layout_alignBottom="@+id/difficulty_plat"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="There are few difficultys in the game (easy,medium,hard,master), for unlock all of tham u have to get amount of points in the pre difficulty, after u unlock the difficulty u will revive a message, every difficulty is high risk high rewards, meaning the harder the difficulty the better loot (keys,coins,hearts) u will get!"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/reward_sign"
+        android:background="@drawable/reward_sign"
+        android:layout_below="@id/difficulty_plat"
+        android:layout_width="350dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/reward_plat"
+        android:background="#8187898A"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/reward_sign"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/chest_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/reward_plat"
+            android:layout_alignEnd="@+id/reward_plat"
+            android:layout_alignBottom="@+id/reward_plat"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/chest_pic" />
+
+    <ScrollView
+        android:id="@+id/innerScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@id/reward_plat"
+        android:layout_alignTop="@+id/reward_plat"
+        android:layout_alignEnd="@id/reward_plat"
+        android:layout_above="@+id/chest_pic"
+        >
+    <TextView
+        android:id="@+id/reward_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Win prices by getting keys in the game, u can also get some rewards by doing achievements (u can see how in the shop), also u can buy some skins and getting info about the achievement in the shop, there are uncommon,common,epic and legendary skins, the rarer the skin, the harder it is to get it!"
+        android:textSize="25sp" />
+    </ScrollView>
+
+        <ImageView
+            android:id="@+id/howtoplay_sign"
+            android:background="@drawable/howtoplay_sign"
+            android:layout_below="@id/reward_plat"
+            android:layout_width="350dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/howtoplay_plat"
+            android:background="#8187898A"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/howtoplay_sign"
+            android:layout_width="350dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/chest_pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/howtoplay_plat"
+            android:layout_alignEnd="@+id/howtoplay_plat"
+            android:layout_alignBottom="@+id/howtoplay_plat"
+            android:background="@drawable/howtoplay_pic" />
+
+        <ScrollView
+            android:id="@+id/innerScrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@id/howtoplay_plat"
+            android:layout_alignTop="@+id/howtoplay_plat"
+            android:layout_alignEnd="@id/howtoplay_plat"
+            android:layout_above="@+id/chest_pic2"
+            >
+            <TextView
+                android:id="@+id/howtoplay_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="Play by moving your character left and right, your goal is to survive the most you can, every spike u dodges u will get 10 points, by surviving u getting keys,coins, also u can catch hearts that drop from the sky for more health (u cant get more than your start max health)"
+                android:textSize="25sp" />
+        </ScrollView>
+
+
+        <ImageView
+            android:id="@+id/moreinfo_sign"
+            android:background="@drawable/moreinfo_sign"
+            android:layout_below="@id/howtoplay_plat"
+            android:layout_width="350dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/moreinfo_plat"
+            android:background="#8187898A"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/moreinfo_sign"
+            android:layout_width="350dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/youtube_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@id/facebook_icon"
+            android:layout_alignTop="@+id/moreinfo_plat"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/youtube_icon" />
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@id/youtube_icon"
+            android:background="@drawable/facebook_icon"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/instagram_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@id/facebook_icon"
+            android:layout_alignBottom="@id/youtube_icon"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/instagram_icon" />
+
+
+
+    </RelativeLayout>
+
+    </com.example.savethepuppy.CustomScrollView>
+    <ImageView
+        android:id="@+id/exit_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home_icon" />
+
+</RelativeLayout>

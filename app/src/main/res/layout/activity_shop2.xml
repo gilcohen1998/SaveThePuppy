@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shop_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop_background"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:context=".ShopActivity2">
+
+    <TextView
+        android:id="@+id/shop_coins2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/coins"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="0"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/monkey_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins2"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/sheep_skin"
+        android:src="@drawable/monkey_shop" />
+
+    <ImageView
+        android:id="@+id/sheep_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_coins2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_toEndOf="@+id/cow_skin"
+        android:src="@drawable/sheep_shop" />
+
+    <ImageView
+        android:id="@+id/cow_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/monkey_skin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/panda_skin"
+        android:src="@drawable/cow_shop" />
+
+    <ImageView
+        android:id="@+id/panda_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sheep_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/lion_skin"
+        android:src="@drawable/panda_shop" />
+
+    <ImageView
+        android:id="@+id/lion_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cow_skin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/owl_skin"
+        android:src="@drawable/lion_shop" />
+
+    <ImageView
+        android:id="@+id/owl_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/panda_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/giraffe_skin"
+        android:src="@drawable/owl_shop" />
+
+
+    <ImageView
+        android:id="@+id/giraffe_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lion_skin"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/elephant_skin"
+        android:src="@drawable/giraffe_shop" />
+
+
+    <ImageView
+        android:id="@+id/elephant_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/owl_skin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/dragon_skin"
+        android:src="@drawable/elephant_shop" />
+
+    <ImageView
+        android:id="@+id/dragon_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/giraffe_skin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/dragon_shop" />
+
+    <ImageView
+        android:id="@+id/next_button2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/next_icon" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/owl_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/owl_skin"
+        android:layout_alignTop="@+id/owl_skin"
+        android:layout_alignEnd="@id/owl_skin"
+        android:layout_alignBottom="@+id/owl_skin"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/shinny_legendary" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/giraffe_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/giraffe_skin"
+        android:layout_alignTop="@+id/giraffe_skin"
+        android:layout_alignEnd="@id/giraffe_skin"
+        android:layout_alignBottom="@+id/giraffe_skin"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/shinny_legendary" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/elephant_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/elephant_skin"
+        android:layout_alignTop="@+id/elephant_skin"
+        android:layout_alignEnd="@id/elephant_skin"
+        android:layout_alignBottom="@+id/elephant_skin"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/shinny_legendary" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/dragon_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dragon_skin"
+        android:layout_alignTop="@+id/dragon_skin"
+        android:layout_alignEnd="@id/dragon_skin"
+        android:layout_alignBottom="@+id/dragon_skin"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/shinny_legendary" />
+
+</RelativeLayout>
